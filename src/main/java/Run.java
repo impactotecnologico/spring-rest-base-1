@@ -9,8 +9,11 @@ public class Run {
 
     @RequestMapping("/")
     String home() {
-        return "Hola Mundo!!!!";
+      String retorno = "Hola Mundo";
+      return retorno + " Mola!!";
     }
+  
+  
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Run.class, args);
